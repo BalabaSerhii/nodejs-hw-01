@@ -8,7 +8,7 @@ export const countContacts = async () => {
     const rez = `Number of contacts: ${contacts.length}`;
     return rez;
   } catch (error) {
-    console.error('Error ADD contacts', error);
+    console.error('Contact counting error!', error);
   }
 };
 
